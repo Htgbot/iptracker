@@ -7,7 +7,7 @@ function trackIP() {
   const output = document.getElementById('output');
   output.innerHTML = 'Loading...';
 
-  const endpoint = `https://keyherlyswar.x10.mx/Apidocs/checkip.php?ip=${encodeURIComponent(ip)}`;
+  const endpoint = `https://harry.lkdevs.com/api/checkip.php?ip=${encodeURIComponent(ip)}`;
 
   fetch(endpoint)
     .then(res => res.json())
